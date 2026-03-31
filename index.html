@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Focuz - 개인정보 처리방침</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #0f0f13; color: #e0e0e8; line-height: 1.7; }
+    .container { max-width: 800px; margin: 0 auto; padding: 60px 24px; }
+    .logo { font-size: 28px; font-weight: 700; color: #7F77DD; margin-bottom: 8px; }
+    .subtitle { font-size: 14px; color: #666; margin-bottom: 48px; }
+    h1 { font-size: 24px; font-weight: 600; margin-bottom: 32px; color: #fff; }
+    h2 { font-size: 16px; font-weight: 600; color: #9F97EE; margin: 32px 0 12px; }
+    p { font-size: 14px; color: #aaa; margin-bottom: 12px; }
+    ul { padding-left: 20px; margin-bottom: 12px; }
+    li { font-size: 14px; color: #aaa; margin-bottom: 6px; }
+    .card { background: #1a1a24; border-radius: 12px; padding: 24px; margin-bottom: 16px; border: 0.5px solid #1e1e28; }
+    .lang-switch { display: flex; gap: 8px; margin-bottom: 32px; }
+    .lang-btn { padding: 6px 14px; border-radius: 20px; border: 0.5px solid #2a2a3a; background: transparent; color: #666; cursor: pointer; font-size: 13px; }
+    .lang-btn.active { background: #7F77DD; color: #fff; border-color: #7F77DD; }
+    .section { display: none; }
+    .section.active { display: block; }
+    .updated { font-size: 12px; color: #555; margin-bottom: 24px; }
+    a { color: #7F77DD; text-decoration: none; }
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="logo">Focuz</div>
+  <div class="subtitle">목표를 함께, 공부를 진짜로</div>
+
+  <div class="lang-switch">
+    <button class="lang-btn active" onclick="switchLang('ko')">🇰🇷 한국어</button>
+    <button class="lang-btn" onclick="switchLang('en')">🇺🇸 English</button>
+    <button class="lang-btn" onclick="switchLang('ja')">🇯🇵 日本語</button>
+  </div>
+
+  <!-- 한국어 -->
+  <div class="section active" id="ko">
+    <h1>개인정보 처리방침</h1>
+    <p class="updated">최종 업데이트: 2025년 4월 1일</p>
+
+    <div class="card">
+      <h2>1. 수집하는 개인정보</h2>
+      <p>Focuz는 서비스 제공을 위해 다음 정보를 수집합니다.</p>
+      <ul>
+        <li>이메일 주소 (회원가입 및 로그인)</li>
+        <li>닉네임</li>
+        <li>전화번호 (본인 인증 시)</li>
+        <li>카메라 영상 (캠스터디 기능 사용 시, 서버에 저장되지 않음)</li>
+        <li>공부 기록 (목표, 달성률, 출석 현황)</li>
+        <li>광고 시청 기록</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>2. 개인정보 이용 목적</h2>
+      <ul>
+        <li>회원 식별 및 서비스 제공</li>
+        <li>공부 통계 및 AI 분석 서비스 제공</li>
+        <li>광고 표시 및 보상 지급</li>
+        <li>서비스 개선 및 신규 기능 개발</li>
+        <li>불법 사용 방지 및 계정 보호</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>3. 제3자 서비스</h2>
+      <p>Focuz는 다음 제3자 서비스를 사용합니다.</p>
+      <ul>
+        <li><strong>Supabase</strong> - 데이터베이스 및 인증</li>
+        <li><strong>Google AdMob</strong> - 광고 서비스</li>
+        <li><strong>Twilio</strong> - SMS 인증</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>4. 카메라 사용</h2>
+      <p>캠스터디 기능 사용 시 카메라에 접근합니다. 카메라 영상은 같은 방 참여자에게만 실시간으로 전송되며 서버에 저장되지 않습니다. 카메라를 끄고 익명으로 참여할 수 있습니다.</p>
+    </div>
+
+    <div class="card">
+      <h2>5. 개인정보 보존 기간</h2>
+      <ul>
+        <li>회원 탈퇴 시 즉시 삭제</li>
+        <li>법령에 따른 보존 의무가 있는 경우 해당 기간 보존</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>6. 미성년자 보호</h2>
+      <p>Focuz는 만 14세 미만 아동의 개인정보를 의도적으로 수집하지 않습니다.</p>
+    </div>
+
+    <div class="card">
+      <h2>7. 문의</h2>
+      <p>개인정보 관련 문의사항이 있으시면 아래로 연락해주세요.</p>
+      <p>이메일: <a href="mailto:focuz.app@gmail.com">focuz.app@gmail.com</a></p>
+    </div>
+  </div>
+
+  <!-- English -->
+  <div class="section" id="en">
+    <h1>Privacy Policy</h1>
+    <p class="updated">Last updated: April 1, 2025</p>
+
+    <div class="card">
+      <h2>1. Information We Collect</h2>
+      <p>Focuz collects the following information to provide our services.</p>
+      <ul>
+        <li>Email address (for sign up and login)</li>
+        <li>Username / nickname</li>
+        <li>Phone number (for identity verification)</li>
+        <li>Camera feed (for cam-study feature, not stored on servers)</li>
+        <li>Study records (goals, completion rate, attendance)</li>
+        <li>Ad viewing history</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>2. How We Use Your Information</h2>
+      <ul>
+        <li>User identification and service delivery</li>
+        <li>Study statistics and AI analysis</li>
+        <li>Ad display and reward distribution</li>
+        <li>Service improvement and new feature development</li>
+        <li>Prevention of abuse and account protection</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>3. Third-Party Services</h2>
+      <p>Focuz uses the following third-party services.</p>
+      <ul>
+        <li><strong>Supabase</strong> - Database and authentication</li>
+        <li><strong>Google AdMob</strong> - Advertising</li>
+        <li><strong>Twilio</strong> - SMS verification</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>4. Camera Usage</h2>
+      <p>We access your camera during cam-study sessions. Video is streamed in real-time only to participants in the same room and is never stored on our servers. You may turn off your camera and join anonymously at any time.</p>
+    </div>
+
+    <div class="card">
+      <h2>5. Data Retention</h2>
+      <ul>
+        <li>Data is deleted immediately upon account deletion</li>
+        <li>Certain data may be retained as required by law</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>6. Children's Privacy</h2>
+      <p>Focuz does not knowingly collect personal information from children under 13.</p>
+    </div>
+
+    <div class="card">
+      <h2>7. Contact Us</h2>
+      <p>For any privacy-related questions, please contact us.</p>
+      <p>Email: <a href="mailto:focuz.app@gmail.com">focuz.app@gmail.com</a></p>
+    </div>
+  </div>
+
+  <!-- 日本語 -->
+  <div class="section" id="ja">
+    <h1>プライバシーポリシー</h1>
+    <p class="updated">最終更新日：2025年4月1日</p>
+
+    <div class="card">
+      <h2>1. 収集する個人情報</h2>
+      <p>Focuzはサービス提供のため、以下の情報を収集します。</p>
+      <ul>
+        <li>メールアドレス（会員登録・ログイン用）</li>
+        <li>ニックネーム</li>
+        <li>電話番号（本人確認時）</li>
+        <li>カメラ映像（キャムスタディ機能使用時、サーバーに保存されません）</li>
+        <li>勉強記録（目標、達成率、出席状況）</li>
+        <li>広告視聴履歴</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>2. 個人情報の利用目的</h2>
+      <ul>
+        <li>会員識別およびサービス提供</li>
+        <li>勉強統計およびAI分析サービスの提供</li>
+        <li>広告表示および報酬付与</li>
+        <li>サービス改善および新機能開発</li>
+        <li>不正利用防止およびアカウント保護</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>3. 第三者サービス</h2>
+      <p>Focuzは以下の第三者サービスを使用しています。</p>
+      <ul>
+        <li><strong>Supabase</strong> - データベースおよび認証</li>
+        <li><strong>Google AdMob</strong> - 広告サービス</li>
+        <li><strong>Twilio</strong> - SMS認証</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>4. カメラの使用について</h2>
+      <p>キャムスタディ機能使用時にカメラにアクセスします。カメラ映像は同じ部屋の参加者にのみリアルタイムで送信され、サーバーには保存されません。カメラをオフにして匿名で参加することもできます。</p>
+    </div>
+
+    <div class="card">
+      <h2>5. 個人情報の保存期間</h2>
+      <ul>
+        <li>退会時に即時削除</li>
+        <li>法令による保存義務がある場合は該当期間保存</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>6. 未成年者の保護</h2>
+      <p>Focuzは13歳未満の子供の個人情報を意図的に収集しません。</p>
+    </div>
+
+    <div class="card">
+      <h2>7. お問い合わせ</h2>
+      <p>個人情報に関するお問い合わせは以下までご連絡ください。</p>
+      <p>メール：<a href="mailto:focuz.app@gmail.com">focuz.app@gmail.com</a></p>
+    </div>
+  </div>
+</div>
+
+<script>
+function switchLang(lang) {
+  document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+  document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));
+  document.getElementById(lang).classList.add('active');
+  event.target.classList.add('active');
+}
+</script>
+</body>
+</html>
